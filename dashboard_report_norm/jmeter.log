@@ -1,0 +1,32 @@
+2026-10-02 15:21:16,307 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-02 15:21:16,333 INFO o.a.j.JMeter: Loading user properties from: C:\Users\FrancisRolandBissah\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2026-10-02 15:21:16,333 INFO o.a.j.JMeter: Loading system properties from: C:\Users\FrancisRolandBissah\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2026-10-02 15:21:16,333 INFO o.a.j.JMeter: Setting JMeter property: AUTH_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImpuRURDd05wUFdHNERETnZaRVRoM0RwcndCSXFwMGFpSEM1eXh5dHp0YWcifQ.eyJ1c2VyX2lkIjo2NjUsImlhdCI6MTc5MDkzMTk3OCwiZXhwIjoxNzkwOTY3OTc4LCJhdWQiOiJodHRwczovL2FtYWxpdGVjaC5jb20vIiwiaXNzIjoiQW1hbGl0ZWNoIFNTTyIsInN1YiI6ImluZm9AYW1hbGl0ZWNoLmNvbSIsImp0aSI6IjI0MDM0MDcyLWJkMWYtNDNjNS04MzQ3LTk2OWMwOGEzZjViYSJ9
+2026-10-02 15:21:16,344 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: java.version=17.0.18
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: os.version=10.0
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-02 15:21:16,346 INFO o.a.j.JMeter: Available Processors =8
+2026-10-02 15:21:16,359 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-02 15:21:16,359 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-02 15:21:16,359 INFO o.a.j.JMeter: JMeterHome=C:\Users\FrancisRolandBissah\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-10-02 15:21:16,359 INFO o.a.j.JMeter: user.dir  =C:\Users\FrancisRolandBissah\Downloads\dashboard_report_norm
+2026-10-02 15:21:16,361 INFO o.a.j.JMeter: PWD       =C:\Users\FrancisRolandBissah\Downloads\dashboard_report_norm
+2026-10-02 15:21:16,370 INFO o.a.j.JMeter: IP: 192.168.6.94 Name: AMALITECH-PC-GH-4100616 FullName: host.docker.internal
+2026-10-02 15:21:16,383 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\FrancisRolandBissah\Downloads\dashboard_report_norm\dashboard_report_l'
+2026-10-02 15:21:16,383 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: The file C:\Users\FrancisRolandBissah\Downloads\dashboard_report_norm\arms_performance (2).jmx doesn't exist or can't be opened
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:950) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
